@@ -33,6 +33,48 @@ org.example.security
     └── CustomUserDetailsService
 ```
 
+## Captures du compte rendu PDF
+
+### Figure 1 — Arborescence du projet et séparation des différentes couches
+
+![Figure 1](docs/images/pdf/fig-000.jpg)
+
+### Figure 2 — Paramètres de la base H2, de JPA et du mécanisme JWT
+
+![Figure 2](docs/images/pdf/fig-002.jpg)
+
+### Figure 3 — DTO de réponse contenant le JWT généré
+
+![Figure 3](docs/images/pdf/fig-004.jpg)
+
+### Figure 4 — DTO utilisé pour recevoir les identifiants de connexion
+
+![Figure 4](docs/images/pdf/fig-006.jpg)
+
+### Figure 5 — DTO de création d’un nouvel utilisateur
+
+![Figure 5](docs/images/pdf/fig-008.jpg)
+
+### Figure 6 — Entité JPA `AppUser` et définition des champs persistés
+
+![Figure 6](docs/images/pdf/fig-010.jpg)
+
+### Figure 7 — Repository Spring Data JPA dédié aux utilisateurs
+
+![Figure 7](docs/images/pdf/fig-012.jpg)
+
+### Figure 8 — Service de chargement des utilisateurs compatible avec Spring Security
+
+![Figure 8](docs/images/pdf/fig-014.jpg)
+
+### Figure 9 — Service JWT : génération, lecture des claims, contrôle d’expiration et validation
+
+![Figure 9](docs/images/pdf/fig-016.jpg)
+
+### Figure 10 — Classe de démarrage de l’application Spring Boot
+
+![Figure 10](docs/images/pdf/fig-018.jpg)
+
 ## Configuration
 
 Le projet utilise :
