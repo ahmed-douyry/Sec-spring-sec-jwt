@@ -37,7 +37,7 @@ org.example.security
 
 ### Figure 1 — Arborescence du projet et séparation des différentes couches
 
-![Figure 1](docs/images/pdf/fig-000.jpg)
+![Figure 1](docs/images/pdf/fig-000.png)
 
 ### Figure 2 — Paramètres de la base H2, de JPA et du mécanisme JWT
 
